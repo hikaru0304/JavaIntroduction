@@ -3,9 +3,13 @@ package first;
 public class BusExam {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Bus bus = new Bus();
+		Car c = new Bus();
+		c.run();
+//		c.ppangppang();
+		
+		Bus bus = (Bus) c;
 		bus.run();
+		bus.ppangppang();
 	}
 
 }

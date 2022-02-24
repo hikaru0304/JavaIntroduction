@@ -1,8 +1,7 @@
 package first;
 
 public class Bus extends Car{
-	public void run() {
-		super.run();
-		System.out.println("Bus ÀÇ run ¸Þ¼Òµå");
+	public void ppangppang() {
+		System.out.println("»§»§");
 	}
 }
